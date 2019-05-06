@@ -1,0 +1,38 @@
+.form {
+  &-group {
+    margin: 1.2rem 0;
+  }
+
+  &-text {
+    display: block;
+    color: #888;
+    margin-top: 0.3rem;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 0.4rem;
+    display: block;
+    border: solid 1px #ccc;
+    font-size: 1.2rem;
+  }
+
+  input[type="submit"] {
+    font: inherit;
+  }
+}
+
+.social-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  i {
+    padding: 0.3rem 1rem;
+  }
+}
